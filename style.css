@@ -48,7 +48,7 @@ header{
     gap: 20px; /* Espaçamento entre os itens do menu */
 }
 
-.menu-principal ul li a {
+.menu-principal  a {
     font-size: 1.7rem;
     color: var(--mscor);
     padding: 10px 15px;
@@ -57,11 +57,11 @@ header{
 }
 
 /* Efeito Hover no Link */
-.menu-principal ul li a:hover {
+.menu-principal  a:hover {
     color: var(--msprincipal);
 }
 
-.menu-principal ul li a::after {
+.menu-principal  a::after {
     content: "";
     position: absolute;
     left: 0;
@@ -72,7 +72,7 @@ header{
     transition: width 0.3s ease-in-out;
 }
 
-.menu-principal ul li a:hover::after {
+.menu-principal a:hover::after {
     width: 100%;
 }
 #menu-celular{
