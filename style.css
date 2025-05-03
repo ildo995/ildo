@@ -43,10 +43,7 @@ header{
 .logo img{
     width: 100%;
 }
-.menu-principal ul {
-    display: flex;
-    gap: 20px; /* Espaçamento entre os itens do menu */
-}
+
 
 .menu-principal  a {
     font-size: 1.7rem;
