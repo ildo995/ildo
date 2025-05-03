@@ -5,7 +5,7 @@
  let menuprincipal=document.querySelector('.menu-principal');
 
  menucelular.onclick= () =>{
-    menucelular.classList.toggle('bi-x')
+   // menucelular.classList.toggle('bi-x')
     menuprincipal.classList.toggle('active')
  }
 /* FİN MENU RESPONSİVO DO SİTE DO SİTE*/ 
