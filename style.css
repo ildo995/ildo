@@ -762,20 +762,18 @@ color: var(--mscor);
     .menu-principal{
         
             position: absolute;
-            display: block;
             top: 100%;
             left: -100%;
             width: 100%;
             height: 100vh;
             background-color: #fff;
-            z-index: 10;
-            display: none; /* <-- oculta totalmente no início */
+         
         
        
     }
     .menu-principal.active {
         left: 0; /* Traz o menu visível */
-        display: block;
+       
       }
     .menu-principal a{
         display: block;
