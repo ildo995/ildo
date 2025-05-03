@@ -102,7 +102,7 @@ header{
 /*fin de cabecalho*/
 .destaque-inicial{
     padding: 2rem 7%;
-    background-image: url(./img/slide/fundo2.jpeg);
+    background-image: url(./img/slide/fundo2.png);
     width: 100%;
     min-height: 100vh;
     background-size: cover;
